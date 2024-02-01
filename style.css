@@ -1,0 +1,22 @@
+/*Général*/
+
+html,body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+
+/*Header*/
+
+.header{
+display: flex;
+width: auto;
+justify-content: center;
+align-items: center;
+}
+
+h1{
+    color: #ffff;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}
