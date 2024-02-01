@@ -46,7 +46,7 @@ h1{
 
 .carteImg:hover{
     cursor: pointer;
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 
 .lot1{
@@ -68,6 +68,10 @@ h1{
     height: 100%;
     border-radius: 15px;
     object-fit: cover;
+}
+
+.img1:hover{
+    content: ' Text Portrait1';
 }
 
 .img2{
@@ -191,4 +195,22 @@ h1{
     height: 100%;
     border-radius: 15px;
     object-fit: cover;
+}
+
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.footer p{
+    color: #ffff;
+}
+
+.footer h3{
+    color: #ffff;
 }
