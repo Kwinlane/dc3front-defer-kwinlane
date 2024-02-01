@@ -44,6 +44,11 @@ h1{
     margin: 50px;
 }
 
+.carteImg:hover{
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
 .lot1{
     display: flex;
     flex-direction: row;
@@ -99,12 +104,14 @@ h1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .lot4{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .img5{
@@ -129,6 +136,57 @@ h1{
 }
 
 .img8{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.imgInf{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    margin: 50px;
+}
+
+.lot5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lot6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img9{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.img10{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.img11{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.img12{
     width: 100%;
     height: 100%;
     border-radius: 15px;
